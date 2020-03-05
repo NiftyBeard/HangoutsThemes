@@ -383,27 +383,31 @@ img {
    background-color: #202730;
 }
 .zPVzl {
-   background-color: #282828;
-   color: #928374;
+   background-color: #202730;
+   color: #4BD192;
 }
 .cmEq8b .Zc1Emd, .cmEq8b .Z4BnXb {
     color: #4BD192;
 }
+.cmEq8b .Zc1Emd {
+    color: #D6DDEC;
+}
+/*selection color*/
 .dsoUjb .oGsu4:hover .iKCcE {
-    background-color: #404851;
+    background-color: #27303A;
 }
  
 .Bl2pUd {
-    background-color: #ffffff;
+    background-color: #202730;
     color: #ffffff;
 }
  
 .dsoUjb {
-    border-color: #ffffff;
+    border-color: #202730;
 }
 /* message timestamp */
 .b8Cb3d {
-    color: #ffffff;
+    color: #303B47;
 }
  
 /* likes */
