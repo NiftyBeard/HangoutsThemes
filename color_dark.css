@@ -10,6 +10,13 @@
    padding-right: 0px;
 }
  
+/*Emoji icon, hover over a message, top right*/
+.f8lxbf {
+    fill: #202730;
+    height: 20px;
+    width: 20px;
+   
+}
 /* Reduce whitespace around New conversation button */
 .RnpT2b {
    margin: 4px 0 4px 0;
@@ -240,11 +247,35 @@ channels in sidebar with the new height */
    fill: #fff !important;
 }
  
+/*
+EMOJI MENU
+*/
+ 
+ 
 /* Big emojis size */
 .Zc1Emd.NM3Nfc {
    font-size: 24px;
 }
- 
+/*Emoji menu background*/
+.zZ3s4
+{
+    background: #303B47;
+    border: solid 1px #222835;
+}
+/*Emoji menu, search input*/
+.Tl0u0c {
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: #303B47;
+       
+}
+/*Emoji menu background, line separate*/
+.Imaktf {
+    border-bottom: 3px solid #222835;
+}
 /* Inline emojis size */
 img {
    border: none;
@@ -343,7 +374,10 @@ img {
 .SfqTBc .jy2fzc {
     color: #EAF1FF;
 }
- 
+/*New message highlight color*/
+.PL5Wwe.H7du2 .t5F5nf {
+    color: #fb4934;
+}
 /* topbar */
 .QTQg5e {
    background-color: #303B47;
@@ -435,6 +469,10 @@ img {
 .A2BXPe {
     color: #D6DDEC;
 }
+.FvYVyf
+{
+    color: white;
+}
 /* answer bar - bottom */
 .DLc2vb .Bqp03e, .XganBc {
    background-color: #303B47;
@@ -443,18 +481,33 @@ img {
     color: #303B47;
 }
 .oAzRtb {
-    color: #D6DDEC;
+    color: #EAF1FF;
 }
 /* answer border in channel */
 .dJ9vNe {
-    border: solid 1px #665c54;
-    background-color: #1d2021;
+    border: solid 1px #303B47;
+    background-color: #202730;
 }
+ 
+/* answer, font color*/
 .I0LFzc.DEh1R .oAzRtb {
-    color: #504945;
+    color: #EAF1FF;
 }
+ 
+/*answer bar, quick respond buttons*/
+.T9VbLe
+{
+    background: #303B47;
+    border: solid 1px #4BD192;
+}
+/*answer bar, quick respond buttons, font color*/
+.ubzhQb
+{
+    color: #4BD192;
+}
+/* answer, respond quick messages*/
 .vmpzOc {
-   background-color: #282828;
+   background-color: #202730;
 }
  
 /* answer border  private p2p room*/
@@ -588,25 +641,51 @@ div .mUbCce:hover, div .mUbCce:focus {
     background-color: #458588;
 }
  
-/* settings */
-/* sidebar */
+/* settings, sidebar */
 .HzTBCc {
-    background-color: #3c3836;
-    color: #303B47;
+    background-color: #303B47;
+    color: #EAF1FF;
 }
-/* topbar */
+/* settings, topbar */
 .Wu2udb, .Xs68kb {
-    background-color: #3c3836 !important;
+    background-color: #303B47 !important;
     box-shadow: none !important;
     -moz-box-shadow: none !important;
 }
+/* settings, content menu boxes*/
+.ctDTIf, .cu2s6c {
+    background-color: #303b47;
+    color: #EAF1FF;
+}
+.OA0qNb, .ncFHed{
+    background-color: #303b47;
+    fill: #EAF1FF;
+}
+.vRMGwf
+{
+    color: #EAF1FF;
+}
+.nG9WVe
+{
+    color: #4BD192;  
+    font-weight: bold;
+}
+.dKv0S .i5PBGe {
+    border: 1px solid #1D2635;
+}
+/*topbar, chatroom / members*/
+.FS4hgd.iWO5td.iWO5td {
+    background-color: #202730;
+    border: solid 1px #303B47;
+}
+ 
 /* content */
 .FdpJL {
-    background-color: #1d2021;
+    background-color: #202730;
     margin-left: 0px !important;
     padding-left: 100px !important;
-    border-left: 1px solid #504945;
-    border-top: 1px solid #504945;
+    border-left: 1px solid #1D2635;
+    border-top: 1px solid #1D2635;
 }
  
 /* fix scrollbar in firefox */
@@ -616,26 +695,33 @@ div .mUbCce:hover, div .mUbCce:focus {
  
 /** background of dropdown menus */
 .JPdR6b {
-    background-color: #504945;
+    background-color: #303B47;
 }
+/*dropdown menu, hover*/
 .z80M1:hover{
-    background-color: #282828;
+    background-color: #404851;
 }
+/*dropdown menu, font color*/
 .z80M1, .y9N6W, .lR07Cd {
-    color: #d5c4a1;
+    color: #EAF1FF;
 }
+/*topbar, topleft, chatroom name / members dropdown icons*/
 .o50UJf, .rEu3Tb {
-    fill: #83a598;
+    fill: #4BD192;
+}
+/*topbar, topleft, chatroom name / members font color*/
+.wWf0Bc
+{
+ color: #202730;  
 }
 .R5Q1ue .Bjyxod, .TeY52c .od3Rdc, .QOrOsd {
-    color: #928374;
+    color: #303B47;
 }
  
 /* text coloor in delete message modal */
 .g3VIld {
-    color: #d5c4a1;
+    color: #EAF1FF;
 }
- 
  
 .rFrNMe:not(.Xavc3e):not(.e96Lvf) .zHQkBf, .vW0I1d
 {
@@ -647,5 +733,60 @@ div .mUbCce:hover, div .mUbCce:focus {
 }
  
 .nF6pT.FwR7Pc .iKCcE, .hu21Y:hover {
-    background-color: #3c3836;
+    background-color: #404851;
+}
+ 
+/*Search menu, Top Right icon "While selected" */
+ 
+.PGrLhd, .E7x5W, .wbJc4, .Eb3cg
+{
+    background-color: #303B47;
+}
+ 
+.njhDLd, .jRv5Ke
+{
+    color: #EAF1FF;
+}
+.TjqSm, .Almwvb {
+    background-color: #303B47;
+    border-bottom: 1px solid #dadce0;
+    border-color: #4BD192;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+}
+.pWhTUc
+{
+ background-color: #202730;  
+}
+.W9bYdf, .qiUDtb
+{
+font-size: 12px;
+color: #4BD192;
+}
+ 
+.rFrNMe:not(.Xavc3e):not(.e96Lvf) .zHQkBf, .vW0I1d {
+    color: #EAF1FF !important;
+}
+.taQuBe,.MkjOTb, .oKubKe, .G23qLb {
+    color: #EAF1FF;
+    background-color: #202730;
+}
+.ojdPUc .jBmls {
+    background-color: #4BD192;
+}
+ 
+.gb_D
+{
+ background-color: #4BD192;  
+}
+ 
+.EIlDfe {
+    background-color: red;
+    background: red;
+    fill: red;
 }
