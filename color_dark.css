@@ -15,12 +15,6 @@
     color: #282828 !important;
 }
 
-.EyyDtb,
-.DLc2vb .Bqp03e[data-soft-view-id^="/dm"],
-.DLc2vb .Bqp03e[data-soft-view-id^="/room"] {
- background-color:#202730;
-}
-
 /* Reduce whitespace around New conversation button */
 .RnpT2b {
    margin: 4px 0 4px 0;
