@@ -9,6 +9,11 @@
    padding-left: 0px;
    padding-right: 0px;
 }
+
+.IL9EXe.qs41qe {
+    background-color:  #0000001c !important;
+    color: #282828 !important;
+}
  
 /* Reduce whitespace around New conversation button */
 .RnpT2b {
@@ -61,7 +66,7 @@
 
 .cmEq8b .Z4BnXb .njhDLd {
  font-family:'Google Sans',Arial,sans-serif;
- color:#49d18e;
+ color:#4BD192;
  font-size:.875rem;
  font-weight:500;
  line-height:1.25rem
@@ -249,7 +254,7 @@
  
 /* Sidebar channels elements height */
 .LoYJxb {
-   height: 26px;
+   height: 35px;
 }
  
  
@@ -434,7 +439,7 @@ img {
    color: #928374;
 }
 .cmEq8b .Zc1Emd, .cmEq8b .Z4BnXb {
-    color: #4BD192;
+    color: #F1FFFF;
 }
 .dsoUjb .oGsu4:hover .iKCcE {
     background-color: #404851;
