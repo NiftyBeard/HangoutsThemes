@@ -2,6 +2,209 @@
  .threadlink {
     color: #fff;
 }
+/* Chat Drop Down and Search */
+.JPdR6b {
+ -moz-transform:translateZ(0);
+ transform:translateZ(0);
+ -moz-transition:max-width .2s  cubic-bezier(0.0,0.0,0.2,1) ,max-height .2s  cubic-bezier(0.0,0.0,0.2,1) ,opacity .1s linear;
+ transition:max-width .2s  cubic-bezier(0.0,0.0,0.2,1) ,max-height .2s  cubic-bezier(0.0,0.0,0.2,1) ,opacity .1s linear;
+ background:#303b47;
+ border:0;
+ -moz-border-radius:2px;
+ border-radius:2px;
+ -moz-box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2);
+ box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.2);
+ box-sizing:border-box;
+ max-height:100%;
+ max-width:100%;
+ opacity:1;
+ outline:1px solid transparent;
+ z-index:2000
+}
+.z80M1 {
+ color:#fff;
+}
+.o50UJf {
+ fill:#4bd192;
+ flex-shrink:0;
+ height:20px;
+ margin-right:20px;
+ width:20px
+}
+.uDjj8c {
+ align-self:flex-start;
+ background:#303b47;
+ display:none;
+ flex-direction:column;
+ max-height:-moz-calc(100% - 48px);
+ max-height:calc(100% - 48px);
+ position:relative;
+ width:100%
+}
+.hU65Ef {
+ align-self:flex-start;
+ background:#303b47;
+ display:-webkit-box;
+ display:-moz-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ flex-direction:column;
+ height:100%;
+ overflow:hidden;
+ width:100%
+}
+.RSb8Fe {
+ fill:#4bd192;
+}
+.BmI6nc .t5F5nf {
+ font-family:'Roboto',sans-serif;
+ color:#4bd192;
+ font-size:.875rem;
+ font-weight:500
+}
+.ReIHZc .ZTmjQb {
+ color:#ffffff;
+ font-size:.875rem
+}
+.s6FlWd {
+ font-family:'Roboto',sans-serif;
+ color:#ffffff;
+ font-size:.6875rem;
+ font-weight:700;
+ letter-spacing:.8px;
+ line-height:.75rem;
+ margin-top:0;
+ text-transform:uppercase;
+ align-items:center;
+ display:-webkit-box;
+ display:-moz-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ margin-left:12px;
+ margin-right:16px
+}
+.PGrLhd {
+ transform:translate3d(0,0,0);
+ background-color:#242c36;
+ height:100%;
+ overflow:auto;
+ padding-top:0
+}
+.JMZuue {
+ background-color:#242c36;
+ -moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+ box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+ display:-webkit-box;
+ display:-moz-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ -moz-box-flex:0 0 auto;
+ flex:0 0 auto;
+ flex-direction:column
+}
+.jRv5Ke,
+.OfkuDb .njhDLd {
+ font-family:'Roboto',sans-serif;
+ color:#fff;
+ font-size:.75rem;
+ letter-spacing:.3px;
+ line-height:1rem
+}
+.W9bYdf {
+ font-family:'Roboto',sans-serif;
+ color:#fff;
+ font-size:.6875rem;
+ font-weight:700;
+ height:40px;
+ letter-spacing:.8px;
+ line-height:.75rem;
+ text-transform:uppercase;
+ align-items:center;
+ display:-webkit-box;
+ display:-moz-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ margin:16px 24px 0 24px
+}
+.PGrLhd .NXfF8b,
+.PGrLhd .PL5Wwe.H7du2 .NXfF8b {
+ color:#fff;
+ font-size:.875rem;
+ font-weight:400;
+ line-height:20px
+}
+.wbJc4 {
+ font-size:1.25rem;
+ font-weight:500;
+ align-items:center;
+ background-color:#242c36;
+ -moz-box-shadow:0 0 6px rgba(0,0,0,0.3);
+ box-shadow:0 0 6px rgba(0,0,0,0.3);
+ display:-webkit-box;
+ display:-moz-box;
+ display:-webkit-flex;
+ display:-ms-flexbox;
+ display:flex;
+ height:64px;
+ justify-content:initial;
+ position:relative;
+ transition:background-color 200ms linear;
+ width:100%;
+ z-index:6
+}
+.NhpWge {
+ font-size:1.25rem;
+ font-weight:400;
+ color:#4bd192;
+ margin-left:15px
+}
+.PL5Wwe:focus:not(.dQ2Tsf), .PL5Wwe:hover:not(.dQ2Tsf), .tuKyod .LoYJxb {
+    background-color: #4bd192;
+}
+.fKz7Od {
+    color: #4bd192;
+    fill: #fff;
+}
+.xTcvqe .fKz7Od, .wbJc4 .fKz7Od {
+    color: #4bd192 !important;
+    fill: #242c36 !important;
+}
+.CztyIe {
+ height:64px;
+ left:0;
+ position:absolute;
+ top:0;
+ width:100%;
+ background: #4bd192;
+}
+.rFrNMe:not(.Xavc3e) .Wic03c {
+ background-color:#242c36;
+ border-top-left-radius:6px;
+ border-top-right-radius:6px;
+ height:48px
+}
+.EHzcec {
+ background:#303b47;
+ border:1px solid rgba(0,0,0,0.2);
+ -moz-border-radius:8px;
+ border-radius:8px;
+ -moz-box-shadow:0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+ box-shadow:0 1px 2px 0 rgba(60,64,67,.30),0 2px 6px 2px rgba(60,64,67,.15);
+ height:100%;
+ overflow-x:hidden;
+ padding-top:0;
+ position:relative;
+ width:100%
+}
+.tX9u1b:hover .Rq5Gcb {
+ background-color:#4bd192;
+ text-decoration:none
+}
+
 /* remove color background from room icons */
  .OcqlLb {
     background-color: transparent;
