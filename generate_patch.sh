@@ -24,9 +24,10 @@ generateFiles() {
    cat js/gmonkeyscript_template.js "$PLUGINGEN" > "$3/gmonkeyscript.js"
 }
 
-generateFiles "https:\/\/raw.githubusercontent.com\/paveyry\/better-hangoutschat\/master\/css\/shape.css" "https:\/\/raw.githubusercontent.com\/paveyry\/better-hangoutschat\/master\/css\/color_slack.css" "out/slacktheme"
+generateFiles "https:\/\/raw.githubusercontent.com\/NiftyBeard\/better-hangoutschat\/master\/css\/shape.css" "https:\/\/raw.githubusercontent.com\/NiftyBeard\/better-hangoutschat\/master\/css\/color_slack.css" "out/slacktheme"
 
-generateFiles "https:\/\/raw.githubusercontent.com\/paveyry\/better-hangoutschat\/master\/css\/shape.css" "" "out/ghctheme"
+generateFiles "https:\/\/raw.githubusercontent.com\/NiftyBeard\/better-hangoutschat\/master\/css\/shape.css" "" "out/ghctheme"
 
-generateFiles "https:\/\/raw.githubusercontent.com\/paveyry\/better-hangoutschat\/master\/css\/shape.css" "https:\/\/raw.githubusercontent.com\/paveyry\/better-hangoutschat\/master\/css\/olor_dark.css" "out/darktheme" "out/slacktheme"
+generateFiles "https:\/\/raw.githubusercontent.com\/NiftyBeard\/better-hangoutschat\/master\/css\/shape.css" "https:\/\/raw.githubusercontent.com\/NiftyBeard\/better-hangoutschat\/master\/css\/color_dark.css" "out/darktheme"
+
 rm -rf "$DEFAULTINIT" "$PLUGINGEN" "$ESCAPEDPLUGIN" "$WRAPPEDPLUGIN"

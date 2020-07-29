@@ -1,0 +1,468 @@
+/* Specify color for thread links */
+ .threadlink {
+    color: #fff;
+}
+/* remove color background from room icons */
+ .OcqlLb {
+    background-color: transparent;
+    border-radius: 35px;
+}
+.cmEq8b .Z4BnXb .njhDLd {
+    font-family:'Google Sans', Arial, sans-serif;
+    color:#4bd192;
+    font-size:.875rem;
+    font-weight:500;
+    line-height:1.25rem
+}
+/* Fix wierd box shadow */
+ .d6pS5 {
+    box-shadow: 0 12px 12px -2px transparent;
+    height:auto;
+    margin-bottom:0;
+    margin-left:20px;
+    margin-right:24px;
+    min-height:48px;
+    padding-bottom:4px;
+    z-index:1
+}
+.XbbXmb.zzVqCe .nF6pT, .dsoUjb .jGyvbd .jO0Dzb {
+    background-color:#303b47;
+    padding-top:10px
+}
+.PhFuQe.yXgmRe .dJ9vNe {
+    background-color:#242c36;
+    border:none
+}
+.dJ9vNe {
+    border:0;
+    -moz-border-radius:calc(48px/2);
+    border-radius:calc(48px/2);
+    background-color:rgb(36, 44, 54);
+}
+.A2BXPe, .A2BXPe .njhDLd, .LOO11c {
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+    font-size:12px;
+    font-weight:400;
+    letter-spacing:.3px;
+    line-height:1rem;
+    text-transform:none
+}
+.QQodff .FvYVyf {
+    font-family:'Roboto', sans-serif;
+    color:#4bd192;
+    font-size:.6875rem;
+    font-weight:500;
+    letter-spacing:.8px;
+    line-height:1rem;
+    text-transform:uppercase
+}
+.nF6pT.FwR7Pc .iKCcE, .hu21Y:hover {
+    background-color:#f8f9fa;
+    -moz-border-radius:2px;
+    border-radius:35px;
+    width: max-content;
+    padding: 3px;
+}
+.sNyyib .x1jjEb {
+    background-color:transparent;
+    /*! padding:10px; */
+    /*! padding-bottom:0; */
+    font-size:14px;
+    font-family:'Google Sans', Arial, sans-serif;
+    height:16px;
+    color:#fff;
+}
+.gWTIDe {
+    font-family:'Google Sans', Arial, sans-serif;
+    color:#fff;
+    font-size:14px;
+    line-height:1.25rem;
+    letter-spacing:.25px;
+    margin-left:4px;
+    padding-top:1px
+}
+.DQpXgf.Co3XTc {
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+    font-size:.875rem;
+    line-height:1.25rem
+}
+.b8Cb3d {
+    font-family:'Roboto', sans-serif;
+    color:#4bd192;
+    font-size:.75rem;
+    font-weight:400;
+    line-height:1rem;
+    display:inline;
+    margin-right:8px
+}
+/* Global Background color */
+ .Bl2pUd {
+    background-color: #242c36;
+}
+/* Global background color in private messages */
+ .WQKmIb .Bl2pUd, .WQKmIb .byY7Yb {
+    background-color: #303b47;
+}
+/* Global background color in room preview */
+ .x7DKme {
+    background-color: #242c36 !important;
+}
+/* Global background color in search results */
+ .pWhTUc {
+    background-color: #242c36 !important;
+}
+/* Title in private messages */
+ .CmMf8e {
+    color: #fff;
+}
+/* Title in channels */
+ .tCUB4c {
+    color: #fff;
+}
+/* Topbar background color */
+ .QTQg5e {
+    background: #242c36;
+    border-bottom: 1px solid #6a6a6a;
+}
+/* Topbar left button text color */
+ .nk7hB, .wWf0Bc, .nk7hB .cAW0Vc {
+    color: #fff;
+}
+/* Topbar right buttons color */
+ .Nj8aCb.Nj8aCb {
+    color: #fff;
+    fill: #fff;
+}
+/* Thread boxes colors */
+ .dsoUjb {
+    background-color: #303b47;
+    border: solid 1px #4a4a4a;
+}
+.oGsu4 {
+    background-color: #303b47;
+}
+.nF6pT.FwR7Pc .iKCcE, .hu21Y:hover {
+    background-color: #242c36;
+}
+.XbbXmb.zzVqCe .nF6pT, .jGyvbd .jO0Dzb {
+    background-color: #303b47;
+}
+/* Thread boxes in pm */
+ .WQKmIb .dsoUjb {
+    background-color: #303b47 !important;
+    border: solid 1px #303b47 !important;
+}
+/* Thread boxes in search results */
+ .d4FIEb .ajCeRb .QIJiHb {
+    color: #fff !important;
+}
+/* Room title between threads in search results */
+ .aVIRye {
+    color: #4BD192 !important;
+}
+/* Load more messages button in search results */
+ .taQuBe {
+    color: #fff;
+    background-color: #303b47;
+}
+/* Topbar members button */
+ .sNyyib .x1jjEb {
+    background-color: #4BD192;
+}
+/* Topbar in room preview */
+ .oPqlY {
+    background-color: #303b47 !important;
+}
+/* Edit/react/delete buttons on message */
+ .f8lxbf {
+    fill: #fff;
+}
+.eWw5ab {
+    background-color: #303b47;
+    border: solid 1px #5f5f5f;
+}
+.MbhUzd {
+    background-color: #4BD192;
+}
+/* Active thread box */
+ .cZICLc:hover .dsoUjb {
+    border: solid 1px #41b57f;
+}
+/* "Unread" label */
+ .Fv5sh {
+    color: #4BD192;
+}
+.z9ucM .heceU {
+    fill: #4BD192;
+}
+/* Jump to bottom button */
+ .g3VIld .HvOprf, .e3Duub, .w63zXd .NMPajd {
+    background-color: #4BD192;
+}
+.g3VIld .HvOprf:hover, .e3Duub:hover, .w63zXd:hover .NMPajd {
+    background-color: #41b57f;
+}
+/* Collapsed messages button */
+ .zPVzl {
+    background: transparent;
+}
+.Jqvwfe {
+    background-color: #3d3d3d;
+    border: solid 1px #6a6a6a;
+    color: #4BD192;
+}
+/* Username color */
+ .cmEq8b .Zc1Emd, .cmEq8b .Z4BnXb {
+    color: #fff;
+}
+/* Follow button color */
+ .zxHSSc {
+    color: #fff;
+    background-color: #4bd192;
+    border: solid 3px #242c36;
+}
+.yg4pvb::before {
+    background: transparent;
+}
+.zxHSSc.FuHVqe {
+    background-color: #4bd192;
+}
+/* Cancel button when editing a message */
+ .HQ8yf .RveJvd.RveJvd, .oG5Srb .RveJvd.RveJvd, .KV0KFc .ojqkvd {
+    color: #4BD192;
+}
+/* Borders in message editing */
+ .cVKqyc {
+    border: solid 1px #6a6a6a;
+}
+/* Answer box background color */
+ .vmpzOc {
+    background-color: #303b47;
+}
+/* Cursor and text input color */
+ .oAzRtb {
+    caret-color: #fff;
+    color: #fff;
+}
+/* Answer box border when active */
+ .PhFuQe.yXgmRe .dJ9vNe {
+    border: solid 2px #5f5f5f;
+}
+/* Answer box border when inactive */
+ .dJ9vNe {
+    border: solid 1px #4a4a4a;
+}
+/* Answer box right buttons */
+ .fKz7Od {
+    color: #fff;
+    fill: #fff;
+}
+/* New thread button */
+ .SfqTBc {
+    background-color: #303b47;
+}
+.aVw1Ob {
+    color: #fff;
+}
+.SfqTBc .jy2fzc {
+    color: #4BD192;
+}
+/* New thread box */
+ .XganBc {
+    background-color: #303b47;
+    border: solid 1px #5f5f5f;
+}
+.p9Cqzd {
+    /* exit cross */
+    fill: #fff;
+}
+.qnCNBb {
+    /* "New thread" label */
+    color: #fff;
+}
+.zFe2Ef:not(.RDPZE) .v6TC2e {
+    /* send button when active */
+    fill: #4BD192;
+}
+/* Join room box in room preview */
+ .BhQsO {
+    color: #fff !important;
+}
+.CjSwue {
+    background-color: #303b47 !important;
+}
+/* Join button */
+ .W32wZ {
+    background-color: #4BD192;
+}
+/* Text between threads color */
+ .A2BXPe {
+    color: #fff;
+}
+/* Sidebar color and border */
+ .X9KLPc {
+    background-color: #303b47;
+    border-right: solid 1px #6a6a6a;
+}
+/* Sidebar elemtents bg color when hovering */
+ .PL5Wwe:focus:not(.dQ2Tsf), .PL5Wwe:hover:not(.dQ2Tsf), .tuKyod .LoYJxb {
+    background-color: #242c36;
+}
+/* Sidebar active channel */
+ .FS4hgd.iWO5td .ojqkvd, .FS4hgd.iWO5td, .dHI9xe.qs41qe, .dHI9xe.KKjvXb.KKjvXb, .dHI9xe.qs41qe .ojqkvd.ojqkvd, .dHI9xe.KKjvXb.KKjvXb .ojqkvd {
+    color: #fff;
+}
+.FS4hgd.iWO5td.iWO5td, div .dHI9xe.KKjvXb, div .dHI9xe.qs41qe {
+    background-color: #4BD192;
+}
+.PL5Wwe:focus:not(.dQ2Tsf) {
+    background-color: #41b57f;
+}
+/* Sidebar elements text color for chans with unread messages */
+ .PL5Wwe.H7du2 .t5F5nf {
+    color: #fff;
+}
+/* Channel name color in sidebar */
+ .t5F5nf {
+    color: rgb(202, 196, 201);
+}
+/* "Unread" jump button in sidebar */
+ .OpmeVb .GfYBMd, .FTuhNb .RW5Kg {
+    fill: #4BD192;
+    color: #4BD192;
+}
+/* Sidebar "recent" or "starred" section names color */
+ .aOHsTc {
+    color: rgb(202, 196, 201);
+}
+/* Sidebar Search section text color */
+ .HLTcjb {
+    color: rgb(202, 196, 201);
+}
+.D3DXDc {
+    fill: rgb(202, 196, 201) !important;
+}
+/* Sidebar search button hovering bg color */
+ .GbZFNe:focus, .GbZFNe:hover {
+    background-color: #242c36;
+}
+/* Search menu text color */
+ .Uk0Bfe .zHQkBf, .Uk0Bfe .snByac, .dQ2Tsf .NXfF8b, .dQ2Tsf .ZTmjQb {
+    color: #000;
+}
+.ndJi5d {
+    color: rgba(0, 0, 0, 0.38);
+}
+/* Search menu elements colors when hovering */
+ .dQ2Tsf[aria-selected="true"], .PL5Wwe:hover > .dQ2Tsf {
+    background-color: #eee;
+    color: #fff
+}
+/* Search menu people list mail color */
+ .dQ2Tsf[aria-selected="true"] .Kfe2Ub, .PL5Wwe:hover > .dQ2Tsf .Kfe2Ub {
+    color: #000;
+}
+/* Top left corner section (with title) background color and border */
+ .Riuhhf {
+    background-color: #242c36;
+    border-right: solid 1px #6a6a6a;
+    border-bottom: solid 1px #6a6a6a;
+}
+/* Chat top left logo text color */
+ #XMLID_8_-Clipped {
+    opacity: 0.8 !important;
+    fill: #fff !important;
+}
+/* Chat top left logo */
+ #_x3C_Path_x3E_ {
+    fill: #4BD192;
+}
+/* Top left corner Status button when active */
+ .RASpke:hover, .RASpke:focus, .RASpke:hover:focus, .RASpke:active, .RASpke.iWO5td.iWO5td {
+    background-color: #4BD192;
+}
+/* Time and menu buttons and clock for channels inactive and active colors */
+ .sFuxxd {
+    color: rgb(202, 196, 201);
+}
+.PL5Wwe.H7du2 .sFuxxd {
+    color: #fff;
+}
+.DQy0Rb {
+    fill: rgb(202, 196, 201) !important;
+}
+.PL5Wwe.H7du2 .DQy0Rb {
+    fill: #fff !important;
+}
+.QeRfYe {
+    fill: rgb(202, 196, 201) !important;
+}
+.PL5Wwe.H7du2 .QeRfYe {
+    fill: #fff !important;
+}
+/* Code snippets colors */
+ .FMTudf {
+    border: 1px solid #6a6a6a;
+    background: #3d3d3d;
+    color: #fff;
+}
+/* Inline pre colors */
+ .U8d2H {
+    background-color: #3d3d3d;
+    color: #4BD192;
+    border: 1px solid #6a6a6a;
+}
+/* Self Mentions */
+ .cmEq8b .NhKrqd {
+    background-color: #4BD192;
+}
+/* Others' mentions */
+ .fWwrkf {
+    color: #4BD192;
+}
+/* Link previews */
+ .Pj9rof {
+    background-color: #303b47;
+    border: 1px solid #6a6a6a;
+}
+.kmatHb, .hlrRUb {
+    color: #fff;
+    background: transparent;
+}
+.SXFjfb {
+    background-color: #303b47;
+    border-top: 1px solid #6a6a6a;
+}
+/* images */
+ .KuG0bc {
+    border: 1px solid #6a6a6a;
+}
+/* Message suggestions */
+ .T9VbLe {
+    background-color: #303b47;
+    border: 1px solid #6a6a6a;
+}
+.ubzhQb {
+    color: #4BD192;
+}
+/* Emoji reactions */
+ .dIC9Jb {
+    background-color: #303b47;
+    border: 1px solid #6a6a6a;
+}
+.YK45Id {
+    color: #ccc;
+}
+.dIC9Jb.CwpxMe .j3630e {
+    color: #4BD192;
+}
+div .mUbCce:hover, div .mUbCce:focus, div .mUbCce:active, div .mUbCce.qs41qe, div .mUbCce.u3bW4e, .JRtysb:hover .snByac, .JRtysb:focus .snByac, .JRtysb:active .snByac, .JRtysb.qs41qe .snByac, .JRtysb.u3bW4e .snByac {
+    fill: #4BD192;
+}
+/* browse room and search exit button */
+ .xTcvqe .fKz7Od, .wbJc4 .fKz7Od {
+    color: #000 !important;
+    fill: #000 !important;
+}

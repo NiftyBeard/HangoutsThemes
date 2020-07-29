@@ -316,3 +316,95 @@ zg.prototype.N=function(a,c){var d=this;X.prototype.N.call(this,a,c);se(re.g(),n
 var Cg=function(a){var c=Promise.resolve();a.h&&a.f&&(c=a.h,a.f());c["finally"](function(){var d=xe(),e=d.S;a.f=d.cancel;a.h=e["finally"](function(){a.f=null;a.h=null}).then(function(){return rf(a,1)})["catch"](function(){Bg(a,!0)})})},Bg=function(a,c){c=void 0===c?!1:c;a.a.a("Updating the UI. hasError="+c);var d=c?Ag(a):a.H(),e=Z(a);e&&(e.loadURL(d),a.l=c)};
 r.Object.defineProperties(zg.prototype,{C:{configurable:!0,enumerable:!0,get:function(){return 2}},displayName:{configurable:!0,enumerable:!0,get:function(){return"OAuthLoginView"}}});yg.prototype.c=function(){var a=this,c=nf(new Yf,this.b),d=nf(new zg,this.b);bf([{C:1,view:c},{C:2,view:d}]);te().then(function(){U.g().a?(a.a.a("Transitioning to MainView after setting active account."),df(W.g(),1)):(a.a.a("Transitioning to LoginView after not setting active account."),df(W.g(),2))})["catch"](function(){a.a.a("Transitioning to LoginView after failed auth attempt.");df(W.g(),2)})};Yf.prototype.ba=function(){return!0};Yf.prototype.wa=Yf.prototype.Ia;
 pe=function(a){var c=U.g().a,d=[{label:c?c.trim():"",enabled:!1,visible:!!c},{label:J("MSG_MENU_ACCOUNT_SUBMENU_SIGN_OUT"),visible:!!c,click:function(){a(2,null)}}];return{id:"account",label:J("MSG_MENU_ACCOUNT"),submenu:d,enabled:!!c}};Uc=function(a){a=new z(a);D(a,"shell",3);D(a,"auth_type",1);var c=Tc.getLocale().replace("-","_").toLowerCase();D(a,"hl",c);return a.toString()};var Dg=require("electron").app,Eg=E("StartUp");Dg.on("ready",function(){Eg.a("Locale on ready: "+Dg.getLocale());new yg});process.on("uncaughtException",function(a){Eg.error("UncaughtException",a)});process.on("unhandledRejection",function(a){Eg.error("UnhandledRejection",a)});Ze&&Dg.setAppUserModelId("com.google.chat");
+const app = require('electron').app;
+app.on('web-contents-created', (e, webContents) => {
+    var code = `
+    (
+        function(){
+        // CODEHERE
+function inject(){
+    var urlreg = /.*(chat.google.com\\/.*room\\/[a-zA-Z0-9_-]+).*/g;
+
+    var linkFunction = function(elt) {
+       var loc = window.location.href;
+       var match = urlreg.exec(loc);
+       urlreg.lastIndex = 0;
+       if (match != null) {
+          var tmpdiv = document.createElement("div");
+          var link = "https://"+match[1]+"/"+elt.getAttribute("data-topic-id");
+          link = link.replace("search/", "");
+          tmpdiv.innerHTML = '<p class="threadlink"><a href="'+link+'">Link:</a> '+link+'</p>';
+          elt.insertBefore(tmpdiv.childNodes[0], elt.childNodes[0]);
+       }
+    };
+
+    // insertion-query v1.0.3 (2016-01-20)
+    // license:MIT
+    // Zbyszek Tenerowicz <naugtur@gmail.com> (http://naugtur.pl/)
+    var insertionQ=function(){"use strict";function a(a,b){var d,e="insQ_"+g++,f=function(a){(a.animationName===e||a[i]===e)&&(c(a.target)||b(a.target))};d=document.createElement("style"),d.innerHTML="@"+j+"keyframes "+e+" {  from {  outline: 1px solid transparent  } to {  outline: 0px solid transparent }  }\\n"+a+" { animation-duration: 0.001s; animation-name: "+e+"; "+j+"animation-duration: 0.001s; "+j+"animation-name: "+e+";  } ",document.head.appendChild(d);var h=setTimeout(function(){document.addEventListener("animationstart",f,!1),document.addEventListener("MSAnimationStart",f,!1),document.addEventListener("webkitAnimationStart",f,!1)},n.timeout);return{destroy:function(){clearTimeout(h),d&&(document.head.removeChild(d),d=null),document.removeEventListener("animationstart",f),document.removeEventListener("MSAnimationStart",f),document.removeEventListener("webkitAnimationStart",f)}}}function b(a){a.QinsQ=!0}function c(a){return n.strictlyNew&&a.QinsQ===!0}function d(a){return c(a.parentNode)?a:d(a.parentNode)}function e(a){for(b(a),a=a.firstChild;a;a=a.nextSibling)void 0!==a&&1===a.nodeType&&e(a)}function f(f,g){var h=[],i=function(){var a;return function(){clearTimeout(a),a=setTimeout(function(){h.forEach(e),g(h),h=[]},10)}}();return a(f,function(a){if(!c(a)){b(a);var e=d(a);h.indexOf(e)<0&&h.push(e),i()}})}var g=100,h=!1,i="animationName",j="",k="Webkit Moz O ms Khtml".split(" "),l="",m=document.createElement("div"),n={strictlyNew:!0,timeout:20};if(m.style.animationName&&(h=!0),h===!1)for(var o=0;o<k.length;o++)if(void 0!==m.style[k[o]+"AnimationName"]){l=k[o],i=l+"AnimationName",j="-"+l.toLowerCase()+"-",h=!0;break}var p=function(b){return h&&b.match(/[^{}]/)?(n.strictlyNew&&e(document.body),{every:function(c){return a(b,c)},summary:function(a){return f(b,a)}}):!1};return p.config=function(a){for(var b in a)a.hasOwnProperty(b)&&(n[b]=a[b])},p}();"undefined"!=typeof module&&"undefined"!=typeof module.exports&&(module.exports=insertionQ);
+
+    var topics = document.getElementsByClassName('cZICLc');
+    var i;
+    for (i = 0; i < topics.length; i++) {
+       linkFunction(topics[i]);
+    }
+    insertionQ('.cZICLc').every(linkFunction);
+
+    // Then get its webviews
+    let webviews = document.querySelectorAll("webview");
+
+    function loadCSS(cssPath) {
+        if (cssPath == '') {
+            return;
+        }
+        // Fetch our CSS in parallel ahead of time
+        let cssPromise = fetch(cssPath).then(response => response.text());
+
+        // Insert a style tag into the wrapper view
+        cssPromise.then(css => {
+           let s = document.createElement('style');
+           s.type = 'text/css';
+           s.innerHTML = css;
+           document.head.appendChild(s);
+        });
+
+        // Wait for each webview to load
+        webviews.forEach(webview => {
+           webview.addEventListener('ipc-message', message => {
+              if (message.channel == 'didFinishLoading')
+                 // Finally add the CSS into the webview
+                 cssPromise.then(css => {
+                    let script = "let s = document.createElement('style');"+
+                    "s.type = 'text/css';"+
+                    "s.id = 'slack-custom-css';"+
+                    "s.innerHTML = '"+css+"';"+
+                    "document.head.appendChild(s);";
+                    webview.executeJavaScript(script);
+                 })
+           });
+        });
+    }
+
+    loadCSS('https://raw.githubusercontent.com/paveyry/better-hangoutschat/master/css/shape.css');
+    loadCSS('');
+}
+
+if ( window !== undefined ) {
+    let injected = window.injected;
+    if ( injected === undefined ) {
+        inject();
+        window.injected = true;
+    }
+}
+    }()
+    )
+    `;
+    webContents.on('did-finish-load', () => {
+       webContents.executeJavaScript(code, true);
+    });
+    webContents.on('before-input-event', (event, input) => {
+        if (input.key == "F12") {
+            webContents.openDevTools();
+       }
+    })
+})

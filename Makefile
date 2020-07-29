@@ -1,6 +1,6 @@
-ELECTRON?=/cygdrive/c/Users/Garrett/Downloads/better-hangoutschat-4.0.3/better-hangoutschat-4.0.3/main.js
+ELECTRON?=/Applications/Chat.app/Contents/Resources/app/main.js
 THEME?=dark
-OUTELECTRON?=out/$(dark)theme/main.js
+OUTELECTRON?=out/$(THEME)theme/main.js
 
 all: build_all
 
