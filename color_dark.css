@@ -307,6 +307,10 @@
     border-right: solid 1px #6a6a6a;
 }
 /* Sidebar elemtents bg color when hovering */
+.PL5Wwe {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
  .PL5Wwe:focus:not(.dQ2Tsf), .PL5Wwe:hover:not(.dQ2Tsf), .tuKyod .LoYJxb {
     background-color: #242c36;
 }
